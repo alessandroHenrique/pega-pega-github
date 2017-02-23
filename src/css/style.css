@@ -1,0 +1,30 @@
+html {
+  height: 100%;
+}
+
+body {
+  font-family: "brandon-grotesque", "Brandon Grotesque";
+  height: 100%;
+  background: linear-gradient(135deg, #35E7CF 0%, #f5515f 100%);
+  background-attachment: fixed !important;
+}
+
+.container {
+  max-width: 1000px;
+  max-height: 400px;
+  padding-top: 10vh;
+}
+
+.profile-image {
+  max-width: 120px;
+  max-height: 120px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+button {
+  margin-right: 5px;
+}
+button:hover {
+  cursor: pointer;
+}
